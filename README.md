@@ -1,11 +1,26 @@
-# Next.js Technical Challenge
+# 🛒 Next.js Storefront Challenge
 
-## Getting Started
+A modern, high-performance product gallery built with **Next.js (App Router)**.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-pnpm dev
-```
+- **Server-Side Fetching**: Optimized data fetching using Server Components.
+- **URL-based Filtering**: Category filtering state managed entirely via URL params.
+- **Advanced UX**: Skeleton screens via `Suspense`.
+- **Performance**:
+  - Image optimization.
+  - Uncontrolled inputs for filter performance.
+  - Data caching with revalidation.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS + Shadcn/UI
+- **Icons**: Lucide React
+
+## 📦 Installation & Setup
+
+1. Clone the repo: `git clone https://github.com/ManuelBorches/nextjs-fakestore.git`
+2. Install dependencies: `pnpm install`
+3. Run dev server: `pnpm dev`
